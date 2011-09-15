@@ -1,0 +1,9 @@
+Sample Delay Library
+Derek Chafin
+September 14, 2011
+Public Domain Code
+
+An arduino library to calculate a delay after each interation of the loop function.
+
+The library functions similar to a code performance library by taking in a sample delay and subtracting from it the difference of the end time and start time of the loop function.
+If the difference between the end time and the start time is greater than the sample delay then zero is returned.
