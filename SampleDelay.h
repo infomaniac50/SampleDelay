@@ -11,8 +11,8 @@
 class SampleDelay
 {
   public:
-    void start_user_code();
-    int end_user_code(int ms);
+    void start_code_block();
+    int end_code_block(int ms);
   private:
     unsigned long _start_time;
     unsigned long _end_time;

@@ -7,12 +7,12 @@
 #include "WProgram.h"
 #include "SampleDelay.h"
 
-void SampleDelay::start_user_code()
+void SampleDelay::start_code_block()
 {
   _start_time = millis();
 }
 
-int SampleDelay::end_user_code(int ms)
+int SampleDelay::end_code_block(int ms)
 {
   _end_time = millis();
   int calc_delay = ms - (int)(_end_time - _start_time);
