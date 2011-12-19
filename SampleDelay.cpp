@@ -4,7 +4,6 @@
   Released into the public domain.
 */
 
-#include "WProgram.h"
 #include "SampleDelay.h"
 
 void SampleDelay::start_code_block()
